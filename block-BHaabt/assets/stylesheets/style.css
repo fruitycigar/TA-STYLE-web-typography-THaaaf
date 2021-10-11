@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Serif Display", sans-serif;
+}
+body {
+    font-family: "Klarna", sans-serif;
+}
+/* Header */
+.banner h1 {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.banner a {
+    font-family: "Klarna", sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+.banner button {
+    font-family: "Klarna", sans-serif;
+    font-size: 17px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid grey;
+    margin-left: 45px;
+}
+/* Introductory strip */
+.intro {
+    height: 510px;
+    background-color: #2d2640;
+}
+.intro hr {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-top: 55px;
+}
+.intro h1 {
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 53px;
+    color: white;
+    text-transform: capitalize;
+    width: 40%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.intro p {
+    font-family: "Klarna", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    width: 47.5%;
+    line-height: 1.35;
+}
+.intro button {
+    font-family: "Klarna", sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #2d2640;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 40px;
+}
+.intro img {
+    position: absolute;
+    left: 780px;
+    top: 150px;
+}
+/* About */
+.about {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.col-1 {
+ flex: 0 1 50%;
+}
+h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.about p {
+font-size: 21px;
+line-height: 1.7;
+}
+.about button {
+    font-family: "Klarna", sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* Features */
+.features h3 {
+    font-size: 43px;
+    text-transform: inherit;
+    margin: 10px 0;
+}
+.features hr {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+.col-3 {
+    flex: 0 1 30%;
+}
+.feature-columns {
+    padding-bottom: 50px;
+}
+.feature-columns i {
+    font-size: 40px;
+    margin: 30px 0;
+}
+.feature-columns h4 {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.feature-columns p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* Find out more */
+.discover {
+    height: 200px;
+    background-color: #2d2640;
+    padding-bottom: 50px;
+}
+.discover h4 {
+    font-size: 43px;
+    color: white;
+    width: 30%;
+    margin-left: 60px;
+}
+.discover button {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 60px;
+    color: white;
+    padding: 20px;
+    background-color: #2d2640;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* Pre-footer */
+h5 {
+    font-size: 30px;
+}
+.closing {
+    margin-top: 50px;
+}
+.closing i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+hr {
+    max-width: 1200px;
+}
+/* Bottom navigation bar */
+.bottom-nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bottom-nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+/* Footer */
+.footer {
+    background-color: #2d2640;
+}
+.footer small {
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
